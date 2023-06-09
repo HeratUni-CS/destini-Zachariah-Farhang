@@ -1,4 +1,5 @@
 import 'package:destini/story.dart';
+import 'package:flutter/material.dart';
 
 class StoryBrain {
   final List<Story> _storyData = [
@@ -35,6 +36,14 @@ class StoryBrain {
 
   String getStory() {
     return _storyData[0].storyTitle;
+  }
+
+  String getChoice1() {
+    return _storyData[0].choice1;
+  }
+
+  String getChoices() {
+    return _storyData[0].choice2;
   }
 }
 
