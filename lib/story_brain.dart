@@ -33,8 +33,8 @@ class StoryBrain {
         choice2: '')
   ];
 
-  Story getStory() {
-    return _storyData[0];
+  String getStory() {
+    return _storyData[0].storyTitle;
   }
 }
 
