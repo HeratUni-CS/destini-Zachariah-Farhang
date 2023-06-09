@@ -1,4 +1,6 @@
 class Story {
+  Story(this.storyTitle, this.choice1, this.choice2);
+
   late String storyTitle;
   late String choice1;
   late String choice2;
