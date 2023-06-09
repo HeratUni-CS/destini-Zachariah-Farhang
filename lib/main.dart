@@ -79,7 +79,7 @@ class _StoryPageState extends State<StoryPage> {
                   },
                   style: TextButton.styleFrom(backgroundColor: Colors.blue),
                   child: Text(
-                    storyBrain.getChoices(),
+                    storyBrain.getChoice2(),
                     style: TextStyle(
                       fontSize: 20.0,
                       color: Colors.white,
