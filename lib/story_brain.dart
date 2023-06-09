@@ -2,6 +2,8 @@ import 'package:destini/story.dart';
 import 'package:flutter/material.dart';
 
 class StoryBrain {
+  int storyNumber = 0;
+
   final List<Story> _storyData = [
     Story(
         storyTitle:
